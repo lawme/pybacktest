@@ -3,7 +3,7 @@
 察看源码多遍，感觉软件的设计和编程模式“高端、大气、上档次”，值得参考、学习。
 
 1. pybacktest 采用了函数式编程，技术手段包括 lambda、闭包（嵌套函数）、@修饰函数等；
-2. pybacktest 的类设计，使用了 __dir__、__getattr__、__repr__ 等特殊函数；
+2. pybacktest 的类设计，使用了 \__dir\__、\__getattr\__、\__repr\__ 等特殊函数；
 3. 数据结构几乎完全使用 pandas 的 Series 和 DataFrame；
 
 ### pybacktest 的交易策略接口
